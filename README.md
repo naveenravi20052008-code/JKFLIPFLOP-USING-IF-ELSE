@@ -38,12 +38,10 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 3.JK Flip-Flop Logic: On posedge c1k, compute q
 4.Complementary Output: Update qbar = ~q to maintain complementarity.
 5.Testbench: Simulate with combinations of J, K, and c1k to verify JK Flip-Flop functionality.
+
 **PROGRAM**
-
  Developed by:Naveen R RegisterNumber:212225040276
-*/
-JK FLIPFLOP
-
+ 
 module jkff(j,k,clk,q,qbar);
 input j,k,clk;
 output reg q,qbar;
